@@ -1,0 +1,1 @@
+server = smtplib.SMTP(host='smtp.gmail.com', port=587)
