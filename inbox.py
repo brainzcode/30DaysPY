@@ -2,8 +2,7 @@ import imaplib
 import email
 
 host = 'imap.gmail.com'
-username = 'kenajunwa@gmail.com'
-password = 'zscrmhkgqfzsychx'
+
 
 mail = imaplib.IMAP4_SSL(host)
 mail.login(username, password)
